@@ -8,3 +8,8 @@ variable "aws_secret_key" {
   default = ""
 }
 
+variable "app_name" {
+  type    = string
+  default = "progress-monitor"
+}
+
